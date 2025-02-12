@@ -13,7 +13,6 @@ CREATE TABLE vehicles(
 	vehicle_type varchar(30) not null,
 	passengers int not null
 );
-
 CREATE TABLE campers(
 	id INT PRIMARY KEY auto_increment,
 	first_name varchar(20) not null,
