@@ -1,6 +1,5 @@
 CREATE DATABASE camp;
 use camp;
-
 CREATE TABLE rooms(
 	id INT PRIMARY KEY,
 	occupation VARCHAR(20) not null,
