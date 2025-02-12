@@ -6,7 +6,6 @@ CREATE TABLE rooms(
 	occupation VARCHAR(20) not null,
 	beds_count int not null
 );
-
 CREATE TABLE vehicles(
 	id int primary key auto_increment not null,
 	driver_id int not null,
